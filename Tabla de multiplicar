@@ -1,0 +1,23 @@
+package tabla_de_multiplicar;
+
+import java.util.Scanner;
+
+
+
+public class Tabla_de_multiplicar {
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+       Scanner Danna= new Scanner(System.in);
+        System.out.println("Ingrese el numero que desea conocer su tabla de multiplicar");
+       int x= Danna.nextInt();
+        int y,z;
+       for(y=1;y<17;y++){
+           z=x*y;
+           System.out.println(x+"*"+y+"="+z);
+       }
+    }
+    
+}
